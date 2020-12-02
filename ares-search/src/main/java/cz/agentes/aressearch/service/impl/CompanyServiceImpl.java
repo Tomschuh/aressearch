@@ -55,7 +55,7 @@ public class CompanyServiceImpl implements CompanyService {
             // Download all companies
             //companyManager.downloadAllCompanies();
             // Index all companies
-            companyManager.indexAllCompanies();
+            companyManager.indexAllCompaniesV1();
             logger.info("Ares search initialization finished at: " + LocalDateTime.now());
             //companyManager.logLastChanges(LocalDateTime.now());
         }
