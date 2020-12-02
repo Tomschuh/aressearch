@@ -1,0 +1,20 @@
+spring:
+  data:
+    solr:
+      host: http://localhost:8983/solr/
+      repositories:
+        enabled: true
+ares-search:
+  filedb:
+    root-paths:
+      download-files: /srv/ares-search/download
+      xml-files: /srv/ares-search/xml
+      changes-files: /srv/ares-search/changes
+  url:
+    base: https://wwwinfo.mfcr.cz/ares
+    all: /ares_vreo_all.tar.gz
+    one: /darv_vreo.cgi?ico=
+    # https://wwwinfo.mfcr.cz/ares/ares_seznamIC_VR_zmen.7z
+    changes: /ares_seznamIC_VR_zmen.7z
+
+
